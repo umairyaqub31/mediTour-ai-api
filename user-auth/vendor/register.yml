@@ -1,0 +1,63 @@
+info:
+  name: register
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{base_url}}/auth/register/vendor"
+  body:
+    type: json
+    data: |-
+      
+
+      // For doctor/physio/psychologist/nutritionist:
+
+      {
+        "name": "Dr. Ahmed",
+        "email": "dr.ahmed@gmail.com",
+        "phone": "+923001234567",
+        "password": "123456",
+        "role": "doctor",
+        "specializations": ["Cardiology"],
+        "experience": 10,
+        "consultationFee": 1500,
+        "availableCities": ["Lahore"],
+        "pmcNumber": "PMC-12345"
+      }
+
+      // For hospital:
+
+      // {
+      //   "name": "Admin Name",
+      //   "email": "hospital@gmail.com",
+      //   "phone": "+923001234567",
+      //   "password": "123456",
+      //   "role": "hospital",
+      //   "hospitalName": "City Hospital",
+      //   "registrationNo": "REG-001",
+      //   "city": "Lahore",
+      //   "country": "Pakistan",
+      //   "type": "hospital"
+      // }
+
+
+      // For hotel:
+      // {
+      //   "name": "Admin Name",
+      //   "email": "hotel@gmail.com",
+      //   "phone": "+923001234567",
+      //   "password": "123456",
+      //   "role": "hotel",
+      //   "hotelName": "Pearl Continental",
+      //   "city": "Lahore",
+      //   "country": "Pakistan",
+      //   "starRating": 5
+      // }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,20 @@
+info:
+  name: resend-email-otp
+  type: http
+  seq: 4
+
+http:
+  method: POST
+  url: "{{base_url}}/auth/resend-email-otp"
+  body:
+    type: json
+    data: |-
+      {
+        "email":"umairyaqub31@gmail.com"
+      }
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

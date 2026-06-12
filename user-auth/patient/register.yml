@@ -1,0 +1,25 @@
+info:
+  name: register
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{base_url}}/auth/register/patient"
+  body:
+    type: json
+    data: |-
+      {
+        "name": "Umair Yaqub",
+        "email": "umairyaqub32@gmail.com",
+        "phone": "+923001234567",
+        "password": "123456",
+        "preferredLanguage": "en"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

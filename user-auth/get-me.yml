@@ -1,0 +1,65 @@
+info:
+  name: get-me
+  type: http
+  seq: 7
+
+http:
+  method: GET
+  url: "{{base_url}}/auth/me"
+  body:
+    type: text
+    data: |-
+      
+
+      // For doctor/physio/psychologist/nutritionist:
+
+      {
+        "name": "Dr. Ahmed",
+        "email": "dr.ahmed@gmail.com",
+        "phone": "+923001234567",
+        "password": "123456",
+        "role": "doctor",
+        "specializations": ["Cardiology"],
+        "experience": 10,
+        "consultationFee": 1500,
+        "availableCities": ["Lahore"],
+        "pmcNumber": "PMC-12345"
+      }
+
+      // For hospital:
+
+      // {
+      //   "name": "Admin Name",
+      //   "email": "hospital@gmail.com",
+      //   "phone": "+923001234567",
+      //   "password": "123456",
+      //   "role": "hospital",
+      //   "hospitalName": "City Hospital",
+      //   "registrationNo": "REG-001",
+      //   "city": "Lahore",
+      //   "country": "Pakistan",
+      //   "type": "hospital"
+      // }
+
+
+      // For hotel:
+      // {
+      //   "name": "Admin Name",
+      //   "email": "hotel@gmail.com",
+      //   "phone": "+923001234567",
+      //   "password": "123456",
+      //   "role": "hotel",
+      //   "hotelName": "Pearl Continental",
+      //   "city": "Lahore",
+      //   "country": "Pakistan",
+      //   "starRating": 5
+      // }
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTI4MDE1MTFiYWIzNmNkY2RlMWNkMjgiLCJyb2xlIjoicGF0aWVudCIsImlhdCI6MTc4MTE1NjQyMiwiZXhwIjoxNzgxMTU3MzIyfQ.Ri064WaS2FSFwKnNGOhdYo7o3jSQD64UcOHfVnllQCM
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
