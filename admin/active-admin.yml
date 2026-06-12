@@ -1,0 +1,15 @@
+info:
+  name: active-admin
+  type: http
+  seq: 4
+
+http:
+  method: PUT
+  url: "{{base_url}}/superadmin/admins/id/active"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
