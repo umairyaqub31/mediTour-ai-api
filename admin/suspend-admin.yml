@@ -5,8 +5,10 @@ info:
 
 http:
   method: PUT
-  url: "{{base_url}}/superadmin/admins/id/suspend"
-  auth: inherit
+  url: "{{base_url}}/superadmin/admins/6a2bf53b625fb69fdcb378c6/suspend"
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTJiYWRlM2ViZDg4YjZlYzcxNjVmOTIiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTI3MDA4NSwiZXhwIjoxNzgxMjcwOTg1fQ.-dmEqWIXpuTbBAWQjWXb-01Z6VaI8Hsnw86V6jVLNg4
 
 settings:
   encodeUrl: true
