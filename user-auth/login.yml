@@ -11,8 +11,8 @@ http:
     data: |+
       
       {
-        "email": "umairyaqub31@gmail.com",
-        "password":"123456"
+        "email": "superadmin@meditour.pk",
+        "password":"ChangeMe@123"
       }
 
   auth: inherit

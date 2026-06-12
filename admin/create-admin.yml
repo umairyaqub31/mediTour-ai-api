@@ -1,0 +1,27 @@
+info:
+  name: create-admin
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{base_url}}/superadmin/admins"
+  body:
+    type: json
+    data: |-
+      {
+        "name": "Ahmed Khan",
+        "email": "admin1@example.com",
+        "phone": "+923001234568",
+        "password": "Admin@123",
+        "role": "admin"
+      }
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTJiYWRlM2ViZDg4YjZlYzcxNjVmOTIiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTI2MDM2MCwiZXhwIjoxNzgxMjYxMjYwfQ.IRFg-Mx6w6zUWcVTHXIKmeHhTpx1HdsjFlBAVBF9x34
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

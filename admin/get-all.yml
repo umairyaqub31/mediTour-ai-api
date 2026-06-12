@@ -1,0 +1,17 @@
+info:
+  name: get-all
+  type: http
+  seq: 2
+
+http:
+  method: GET
+  url: "{{base_url}}/superadmin/admins"
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTJiYWRlM2ViZDg4YjZlYzcxNjVmOTIiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTI2MDM2MCwiZXhwIjoxNzgxMjYxMjYwfQ.IRFg-Mx6w6zUWcVTHXIKmeHhTpx1HdsjFlBAVBF9x34
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
