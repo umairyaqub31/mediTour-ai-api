@@ -5,7 +5,27 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/treatmentCategories/with-procedures"
+  url: "{{base_url}}/treatmentCategories/with-procedures?isFeatured=true"
+  params:
+    - name: page
+      value: ""
+      type: query
+      disabled: true
+    - name: limit
+      value: ""
+      type: query
+      disabled: true
+    - name: search
+      value: ""
+      type: query
+      disabled: true
+    - name: isInternational
+      value: ""
+      type: query
+      disabled: true
+    - name: isFeatured
+      value: "true"
+      type: query
   auth: inherit
 
 settings:

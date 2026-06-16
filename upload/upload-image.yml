@@ -1,0 +1,24 @@
+info:
+  name: upload-image
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{base_url}}/upload/image"
+  body:
+    type: multipart-form
+    data:
+      - name: image
+        type: file
+        value:
+          - /Users/macbookpro/Downloads/2151003773.jpg
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTJiYWRlM2ViZDg4YjZlYzcxNjVmOTIiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTU5OTg0NCwiZXhwIjoxNzgxNjAwNzQ0fQ.6HaC0bRzEyBvpF-Gk4DTQ3o49HTvUu0HRo7yNC6Ip9o
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

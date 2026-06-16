@@ -10,17 +10,17 @@ http:
     type: json
     data: |-
       {
-        "name": "Cosmetic / Plastic Surgery",
-        "description": "Plastic surgery enhances or restores the body form and function.",
-        "content": "Full article content here",
-        "image": "https://cloudinary.com/image.jpg",
-        "icon": "https://cloudinary.com/icon.svg",
+        "name": "Dental Care",
+        "description": "Comprehensive dental treatments ranging from cosmetic dentistry to full mouth reconstruction, performed by experienced dentists using modern techniques.",
+        "content": "Dental care abroad has become one of the most popular medical tourism categories due to massive cost savings combined with high-quality, modern clinics. Procedures range from routine cosmetic work like teeth whitening and veneers to complex full mouth reconstructions involving implants and crowns.\n\nPopular dental procedures include dental implants, veneers, crowns, root canal treatment, teeth whitening, and full mouth rehabilitation. Many patients combine dental treatment with a short vacation since most procedures only require a few days to a week, with minimal downtime.\n\nCountries like Turkey, Mexico, Thailand, and Hungary have become global hubs for dental tourism, offering savings of 50-70% compared to US, UK, or Western European prices, without compromising on quality. Clinics in these destinations are often equipped with the latest digital scanning and CAD/CAM technology, and many dentists are trained internationally.",
+        "image": "https://cloudinary.com/dental-care.jpg",
+        "icon": "https://cloudinary.com/dental-icon.svg",
         "isActive": true,
-        "isFeatured":true
+        "isFeatured": true
       }
   auth:
     type: bearer
-    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTJiYWRlM2ViZDg4YjZlYzcxNjVmOTIiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTUxMDM1MiwiZXhwIjoxNzgxNTExMjUyfQ.296cKtK7i3NdzNfmzEtZ_pAjFYuiDLEzKjIULGlao5I
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTJiYWRlM2ViZDg4YjZlYzcxNjVmOTIiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTU5NTYxMSwiZXhwIjoxNzgxNTk2NTExfQ.kIWw7i8Lk5_gKhMT8fPl6Oxgq4hLfe6X8s5irmpG8iE
 
 settings:
   encodeUrl: true

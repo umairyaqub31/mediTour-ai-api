@@ -12,38 +12,38 @@ http:
       
 
       // Create Procedure (without country prices):
-      {
-        "name": "Rhinoplasty",
-        "categoryId": "6a2fb17a4108fc6002d6327e",
-        "description": "Rhinoplasty, commonly known as a nose job, is one of the most popular cosmetic procedures worldwide. It reshapes the nose to improve facial harmony, correct breathing issues, or repair structural defects.",
-        "content": "Rhinoplasty is a surgical procedure that modifies the shape, size, or function of the nose. It is one of the most technically demanding cosmetic surgeries due to the nose's central position on the face and its complex internal structure.\n\nPatients seek rhinoplasty for both cosmetic and functional reasons. Cosmetic rhinoplasty addresses concerns such as a prominent nasal hump, a wide or bulbous tip, asymmetry, or a nose that appears too large or too small in relation to other facial features. Functional rhinoplasty corrects a deviated septum or other structural issues that cause breathing difficulties.\n\nThe procedure is typically performed under general anesthesia and takes between one to three hours depending on complexity. There are two main techniques — open rhinoplasty, which involves a small incision across the columella for better visibility, and closed rhinoplasty, where all incisions are made inside the nostrils leaving no visible scars.\n\nRecovery involves swelling and bruising for the first two weeks. Most patients return to work within 10 to 14 days. Final results become fully visible after 12 months once all swelling has subsided.\n\nMedical tourism has made rhinoplasty significantly more accessible. Countries like Turkey, South Korea, and Thailand offer world-class surgeons at a fraction of Western prices, making it possible to combine a transformative procedure with a recovery stay abroad.",
-        "image": "https://cloudinary.com/rhinoplasty.jpg",
-        "isActive": true,
-        "isInternational": true
-      }
+      // {
+      //   "name": "Rhinoplasty",
+      //   "categoryId": "6a2fb17a4108fc6002d6327e",
+      //   "description": "Rhinoplasty, commonly known as a nose job, is one of the most popular cosmetic procedures worldwide. It reshapes the nose to improve facial harmony, correct breathing issues, or repair structural defects.",
+      //   "content": "Rhinoplasty is a surgical procedure that modifies the shape, size, or function of the nose. It is one of the most technically demanding cosmetic surgeries due to the nose's central position on the face and its complex internal structure.\n\nPatients seek rhinoplasty for both cosmetic and functional reasons. Cosmetic rhinoplasty addresses concerns such as a prominent nasal hump, a wide or bulbous tip, asymmetry, or a nose that appears too large or too small in relation to other facial features. Functional rhinoplasty corrects a deviated septum or other structural issues that cause breathing difficulties.\n\nThe procedure is typically performed under general anesthesia and takes between one to three hours depending on complexity. There are two main techniques — open rhinoplasty, which involves a small incision across the columella for better visibility, and closed rhinoplasty, where all incisions are made inside the nostrils leaving no visible scars.\n\nRecovery involves swelling and bruising for the first two weeks. Most patients return to work within 10 to 14 days. Final results become fully visible after 12 months once all swelling has subsided.\n\nMedical tourism has made rhinoplasty significantly more accessible. Countries like Turkey, South Korea, and Thailand offer world-class surgeons at a fraction of Western prices, making it possible to combine a transformative procedure with a recovery stay abroad.",
+      //   "image": "https://cloudinary.com/rhinoplasty.jpg",
+      //   "isActive": true,
+      //   "isInternational": true
+      // }
 
 
       // Create Procedure (with country prices):
 
-      // {
-      //   "name": "Rhinoplasty",
-      //   "categoryId": "YOUR_CATEGORY_ID",
-      //   "description": "Nose reshaping procedure to improve facial harmony and proportions.",
-      //   "content": "Full article content here",
-      //   "image": "https://cloudinary.com/rhinoplasty.jpg",
-      //   "isActive": true,
-      //   "isInternational": true,
-      //   "countryPrices": [
-      //     { "country": "USA/UK",      "minPrice": 7000, "maxPrice": 12000, "currency": "USD" },
-      //     { "country": "Turkey",      "minPrice": 3000, "maxPrice": 5000,  "currency": "USD" },
-      //     { "country": "Mexico",      "minPrice": 4000, "maxPrice": 6000,  "currency": "USD" },
-      //     { "country": "Thailand",    "minPrice": 3500, "maxPrice": 5500,  "currency": "USD" },
-      //     { "country": "South Korea", "minPrice": 4000, "maxPrice": 7000,  "currency": "USD" }
-      //   ]
-      // }
+      {
+        "name": "Full Mouth Restoration",
+        "categoryId": "6a30fde8151e502a968143ca",
+        "description": "Full mouth restoration rebuilds and restores all teeth in both the upper and lower jaw using a combination of implants, crowns, and bridges to fully rehabilitate function and appearance.",
+        "content": "Full mouth restoration, also known as full mouth reconstruction or full mouth rehabilitation, is a comprehensive dental treatment that rebuilds or restores all of the teeth in a patient's mouth. It is typically recommended for patients dealing with extensive tooth decay, severe wear, trauma, or long-term dental neglect that has affected most or all of their teeth.\n\nThe procedure usually combines multiple treatments tailored to the patient's needs, including dental implants to replace missing teeth, crowns to protect damaged teeth, bridges to fill gaps, and sometimes orthodontic work to correct bite alignment. Because every case is different, treatment plans are highly individualized after a thorough oral examination, X-rays, and 3D scans.\n\nFull mouth restoration is performed in stages and can take anywhere from a few days to several months depending on complexity, the number of implants required, and healing time needed between procedures. Many medical tourism patients choose intensive treatment plans that compress this timeline into one or two extended visits abroad.\n\nCountries like Turkey, Hungary, Mexico, and Thailand are leading destinations for full mouth restoration, offering experienced prosthodontists, modern implant technology, and savings of 60-70% compared to US, UK, or Western European prices — often making even multiple-trip treatment plans more affordable than local care.",
+        "image": "https://cloudinary.com/full-mouth-restoration.jpg",
+        "isActive": true,
+        "isInternational": true,
+        "countryPrices": [
+          { "country": "USA/UK",   "minPrice": 25000, "maxPrice": 45000, "currency": "USD" },
+          { "country": "Turkey",   "minPrice": 6000,  "maxPrice": 12000, "currency": "USD" },
+          { "country": "Mexico",   "minPrice": 8000,  "maxPrice": 15000, "currency": "USD" },
+          { "country": "Thailand", "minPrice": 7000,  "maxPrice": 13000, "currency": "USD" },
+          { "country": "Hungary",  "minPrice": 6500,  "maxPrice": 12500, "currency": "USD" }
+        ]
+      }
   auth:
     type: bearer
-    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTJiYWRlM2ViZDg4YjZlYzcxNjVmOTIiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTUxMjQzMywiZXhwIjoxNzgxNTEzMzMzfQ.RLkESNL2eV0JbkrxrAr4Z4hkQdvWIDOwr1kctqZcig8
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTJiYWRlM2ViZDg4YjZlYzcxNjVmOTIiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTU5NTYxMSwiZXhwIjoxNzgxNTk2NTExfQ.kIWw7i8Lk5_gKhMT8fPl6Oxgq4hLfe6X8s5irmpG8iE
 
 settings:
   encodeUrl: true
