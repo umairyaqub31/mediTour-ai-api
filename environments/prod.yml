@@ -1,4 +1,4 @@
 name: prod
 variables:
   - name: base_url
-    value: http://34.28.42.219/api
+    value: http://136.115.252.200/api

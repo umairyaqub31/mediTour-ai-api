@@ -1,0 +1,15 @@
+info:
+  name: get-category-with-procedures
+  type: http
+  seq: 4
+
+http:
+  method: GET
+  url: "{{base_url}}/treatmentCategories/with-procedures"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

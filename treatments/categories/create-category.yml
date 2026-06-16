@@ -1,0 +1,29 @@
+info:
+  name: create-category
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{base_url}}/treatmentCategories"
+  body:
+    type: json
+    data: |-
+      {
+        "name": "Cosmetic / Plastic Surgery",
+        "description": "Plastic surgery enhances or restores the body form and function.",
+        "content": "Full article content here",
+        "image": "https://cloudinary.com/image.jpg",
+        "icon": "https://cloudinary.com/icon.svg",
+        "isActive": true,
+        "isFeatured":true
+      }
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTJiYWRlM2ViZDg4YjZlYzcxNjVmOTIiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTUxMDM1MiwiZXhwIjoxNzgxNTExMjUyfQ.296cKtK7i3NdzNfmzEtZ_pAjFYuiDLEzKjIULGlao5I
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

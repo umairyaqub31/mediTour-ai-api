@@ -1,0 +1,17 @@
+info:
+  name: delete-category
+  type: http
+  seq: 3
+
+http:
+  method: DELETE
+  url: "{{base_url}}/treatmentCategories/6a2fb0edf967a701bc333b65"
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTJiYWRlM2ViZDg4YjZlYzcxNjVmOTIiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTUxMDM1MiwiZXhwIjoxNzgxNTExMjUyfQ.296cKtK7i3NdzNfmzEtZ_pAjFYuiDLEzKjIULGlao5I
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

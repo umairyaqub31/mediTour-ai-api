@@ -1,0 +1,52 @@
+info:
+  name: create-treatment-procedure
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{base_url}}/treatmentProcedures"
+  body:
+    type: json
+    data: |-
+      
+
+      // Create Procedure (without country prices):
+      {
+        "name": "Rhinoplasty",
+        "categoryId": "6a2fb17a4108fc6002d6327e",
+        "description": "Rhinoplasty, commonly known as a nose job, is one of the most popular cosmetic procedures worldwide. It reshapes the nose to improve facial harmony, correct breathing issues, or repair structural defects.",
+        "content": "Rhinoplasty is a surgical procedure that modifies the shape, size, or function of the nose. It is one of the most technically demanding cosmetic surgeries due to the nose's central position on the face and its complex internal structure.\n\nPatients seek rhinoplasty for both cosmetic and functional reasons. Cosmetic rhinoplasty addresses concerns such as a prominent nasal hump, a wide or bulbous tip, asymmetry, or a nose that appears too large or too small in relation to other facial features. Functional rhinoplasty corrects a deviated septum or other structural issues that cause breathing difficulties.\n\nThe procedure is typically performed under general anesthesia and takes between one to three hours depending on complexity. There are two main techniques — open rhinoplasty, which involves a small incision across the columella for better visibility, and closed rhinoplasty, where all incisions are made inside the nostrils leaving no visible scars.\n\nRecovery involves swelling and bruising for the first two weeks. Most patients return to work within 10 to 14 days. Final results become fully visible after 12 months once all swelling has subsided.\n\nMedical tourism has made rhinoplasty significantly more accessible. Countries like Turkey, South Korea, and Thailand offer world-class surgeons at a fraction of Western prices, making it possible to combine a transformative procedure with a recovery stay abroad.",
+        "image": "https://cloudinary.com/rhinoplasty.jpg",
+        "isActive": true,
+        "isInternational": true
+      }
+
+
+      // Create Procedure (with country prices):
+
+      // {
+      //   "name": "Rhinoplasty",
+      //   "categoryId": "YOUR_CATEGORY_ID",
+      //   "description": "Nose reshaping procedure to improve facial harmony and proportions.",
+      //   "content": "Full article content here",
+      //   "image": "https://cloudinary.com/rhinoplasty.jpg",
+      //   "isActive": true,
+      //   "isInternational": true,
+      //   "countryPrices": [
+      //     { "country": "USA/UK",      "minPrice": 7000, "maxPrice": 12000, "currency": "USD" },
+      //     { "country": "Turkey",      "minPrice": 3000, "maxPrice": 5000,  "currency": "USD" },
+      //     { "country": "Mexico",      "minPrice": 4000, "maxPrice": 6000,  "currency": "USD" },
+      //     { "country": "Thailand",    "minPrice": 3500, "maxPrice": 5500,  "currency": "USD" },
+      //     { "country": "South Korea", "minPrice": 4000, "maxPrice": 7000,  "currency": "USD" }
+      //   ]
+      // }
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTJiYWRlM2ViZDg4YjZlYzcxNjVmOTIiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTUxMjQzMywiZXhwIjoxNzgxNTEzMzMzfQ.RLkESNL2eV0JbkrxrAr4Z4hkQdvWIDOwr1kctqZcig8
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
