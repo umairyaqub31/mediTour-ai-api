@@ -16,7 +16,7 @@ http:
       {
         "name": "Dr. Ahmed",
         "email": "dr.ahmed@gmail.com",
-        "phone": "+923001234567",
+        "phone": "+923001334568",
         "password": "123456",
         "role": "doctor",
         "specializations": ["Cardiology"],

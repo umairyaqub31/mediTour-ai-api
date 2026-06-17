@@ -1,0 +1,61 @@
+info:
+  name: create-passive-vendor
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: "{{base_url}}/vendors/passive"
+  body:
+    type: json
+    data: |-
+      {
+        "vendorType": "lab",
+        "name": "Chughtai Lab",
+        "description": "A leading diagnostic laboratory offering a wide range of pathology, radiology, and specialized testing services across Pakistan.",
+        "logo": "https://cloudinary.com/chughtai-logo.png",
+        "images": [
+          "https://cloudinary.com/chughtai-1.jpg",
+          "https://cloudinary.com/chughtai-2.jpg"
+        ],
+        "city": "Lahore",
+        "country": "Pakistan",
+        "address": {
+          "street": "Main Boulevard",
+          "area": "Gulberg",
+          "full": "Main Boulevard, Gulberg III, Lahore, Pakistan",
+          "coordinates": { "lat": 31.5204, "lng": 74.3587 }
+        },
+        "internalPhone": "+924235000000",
+        "internalEmail": "info@chughtailab.com",
+        "services": [
+          { "name": "Complete Blood Count (CBC)", "description": "Standard blood test panel", "price": 800, "unit": "per test", "isAvailable": true },
+          { "name": "Lipid Profile", "description": "Cholesterol and triglycerides panel", "price": 1500, "unit": "per test", "isAvailable": true },
+          { "name": "HbA1c", "description": "Diabetes monitoring test", "price": 1800, "unit": "per test", "isAvailable": true },
+          { "name": "Liver Function Test (LFT)", "description": "Liver enzyme panel", "price": 1600, "unit": "per test", "isAvailable": true }
+        ],
+        "treatmentIds": [],
+        "diseaseIds": [],
+        "operatingHours": [
+          { "day": "monday",    "openTime": "08:00", "closeTime": "22:00", "isClosed": false },
+          { "day": "tuesday",   "openTime": "08:00", "closeTime": "22:00", "isClosed": false },
+          { "day": "wednesday", "openTime": "08:00", "closeTime": "22:00", "isClosed": false },
+          { "day": "thursday",  "openTime": "08:00", "closeTime": "22:00", "isClosed": false },
+          { "day": "friday",    "openTime": "08:00", "closeTime": "22:00", "isClosed": false },
+          { "day": "saturday",  "openTime": "08:00", "closeTime": "20:00", "isClosed": false },
+          { "day": "sunday",    "openTime": "00:00", "closeTime": "00:00", "isClosed": true }
+        ],
+        "isOpen24Hours": false,
+        "isActive": true,
+        "isVerified": true,
+        "isFeatured": false
+      }
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTMyNWJkZmM0NzkxODc2YWU0MzE3NzMiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTY4NTI0MiwiZXhwIjoxNzgxNjg2MTQyfQ.bmcLQyEdtKl1gUkghQAsttKjsuD65C7sWACcyHxlZYU
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

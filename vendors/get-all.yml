@@ -1,20 +1,11 @@
 info:
-  name: login
+  name: get-all
   type: http
-  seq: 5
+  seq: 1
 
 http:
-  method: POST
-  url: "{{base_url}}/auth/login"
-  body:
-    type: json
-    data: |+
-      
-      {
-        "email": "umair@gmail.com",
-        "password":"ChangeMe@123"
-      }
-
+  method: GET
+  url: "{{base_url}}/vendors/all"
   auth:
     type: bearer
     token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTMyNWJkZmM0NzkxODc2YWU0MzE3NzMiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTY4NTI0MiwiZXhwIjoxNzgxNjg2MTQyfQ.bmcLQyEdtKl1gUkghQAsttKjsuD65C7sWACcyHxlZYU
