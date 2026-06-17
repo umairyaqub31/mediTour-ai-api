@@ -1,0 +1,17 @@
+info:
+  name: get-all-packages
+  type: http
+  seq: 5
+
+http:
+  method: GET
+  url: "{{base_url}}/treatmentPackages/admin/all"
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTMyNWJkZmM0NzkxODc2YWU0MzE3NzMiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTY5NTExMSwiZXhwIjoxNzgxNjk2MDExfQ.B9vNycoiNML6CaE-42n6IDJw5NhPa_71XLTuBO_x0E0
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
