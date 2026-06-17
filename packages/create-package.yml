@@ -1,0 +1,61 @@
+info:
+  name: create-package
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{base_url}}/treatmentPackages/"
+  body:
+    type: json
+    data: |-
+      {
+        "procedureId": "6a313d8441d1e79e83d42190",
+        "hospitalId": "6a313d8441d1e79e83d42190",
+        "title": "Stem Cell Therapy for Longevity Package in Cali, Colombia by Stem Cells Kyron",
+        "slug": "stem-cell-therapy-longevity-cali-colombia-stem-cells-kyron",
+        "country": "Colombia",
+        "city": "Cali",
+        "price": 8500,
+        "currency": "USD",
+        "shortDescription": "An all-inclusive regenerative stem cell therapy package designed to reduce inflammation, boost energy, and slow age-related decline.",
+        "content": "Age Better Naturally: Regenerative Longevity Therapy in Colombia\n\nAre you ready to truly turn back the clock? Stem Cell Therapy for Longevity in Cali Colombia offers a groundbreaking approach to wellness and anti-aging that targets the core of the aging process. Stem Cells Kyron in Cali, Colombia, provides an exclusive package utilizing advanced cell-based techniques to revitalize your body from the inside out.\n\nThe package uses high-dose mesenchymal stem cells (MSCs) to reduce systemic inflammation and promote tissue repair. This therapy is perfect for individuals looking to boost energy, improve cognitive function, strengthen the immune system, and slow down age-related decline.\n\nThe procedure typically involves a comprehensive health assessment, high concentration MSC IV infusion, and supplemental boosters combined with vitamins, antioxidants, or peptides to maximize regenerative effects. Most patients plan a stay of 3-5 days in Cali for consultation, procedure, and recovery.",
+        "inclusions": [
+          { "title": "Initial Medical Consultation", "description": "In-depth consultation and physical exam with the specialist." },
+          { "title": "Stem Cell Infusion", "description": "High-dose IV administration of therapeutic MSCs." },
+          { "title": "Cell Processing", "description": "Laboratory fees for preparation and testing of cells." },
+          { "title": "IV Infusion Support", "description": "Administration materials and sterile facility usage." },
+          { "title": "Post-Treatment Guidance", "description": "Discharge instructions and long-term lifestyle advice." }
+        ],
+        "exclusions": [
+          { "title": "Airfare", "description": "Travel costs to and from Cali, Colombia." },
+          { "title": "Accommodation", "description": "Hotel stays during your time in Cali." },
+          { "title": "Pre-Travel Diagnostics", "description": "External lab tests before arriving in Colombia." },
+          { "title": "Meals", "description": "Food costs throughout your stay." },
+          { "title": "Personal Expenses", "description": "Shopping, entertainment, or tourist activities." }
+        ],
+        "faqs": [
+          { "question": "How long does it take to feel the effects of stem cell therapy for longevity?", "answer": "While some feel an immediate energy boost, major effects like improved immunity and cognitive clarity typically become noticeable 3 to 6 months after infusion." },
+          { "question": "Are the stem cells used by Stem Cells Kyron safe?", "answer": "Yes, Stem Cells Kyron uses meticulously screened, ethically sourced, high-quality cells." },
+          { "question": "Is the procedure invasive?", "answer": "No, it is a minimally invasive intravenous (IV) infusion that takes about 1-2 hours." },
+          { "question": "Does the $8,500 price include hotel?", "answer": "No, accommodation is excluded from the package and should be budgeted for separately." }
+        ],
+        "preProcedureRequirements": [
+          "Recent Blood Work: CMP and CBC within 30 days of treatment.",
+          "Full Medical History: Detailed medications, surgeries, and diagnoses.",
+          "Lifestyle Assessment: Information on smoking, alcohol, and fitness level for the specialist."
+        ],
+        "images": [
+          "https://cloudinary.com/stem-cell-kyron-1.jpg",
+          "https://cloudinary.com/stem-cell-kyron-2.jpg"
+        ]
+      }
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTJiYWRlM2ViZDg4YjZlYzcxNjVmOTIiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTY4MDM1NiwiZXhwIjoxNzgxNjgxMjU2fQ.emP-lIfpsAO0AVn_nHqbzXqByLxrMCs7kOOCXBLHPyg
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

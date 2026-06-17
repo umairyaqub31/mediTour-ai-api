@@ -1,0 +1,17 @@
+info:
+  name: approve-package
+  type: http
+  seq: 3
+
+http:
+  method: PATCH
+  url: "{{base_url}}/treatmentPackages/6a3249a667c3b337aaf44570/approve"
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTJiYWRlM2ViZDg4YjZlYzcxNjVmOTIiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTY4MDM1NiwiZXhwIjoxNzgxNjgxMjU2fQ.emP-lIfpsAO0AVn_nHqbzXqByLxrMCs7kOOCXBLHPyg
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
