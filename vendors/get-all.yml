@@ -6,6 +6,19 @@ info:
 http:
   method: GET
   url: "{{base_url}}/vendors/all"
+  params:
+    - name: vendorType
+      value: lab
+      type: query
+      disabled: true
+  body:
+    type: json
+    data: |-
+      // GET /admin/all?vendorType=doctor
+      // GET /admin/all?vendorType=hospital
+      // GET /admin/all?vendorType=lab
+      // GET /admin/all?vendorType=ambulance
+      // GET /admin/all 
   auth:
     type: bearer
     token: "{{token}}"
