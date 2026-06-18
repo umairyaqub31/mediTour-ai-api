@@ -8,7 +8,7 @@ http:
   url: "{{base_url}}/treatmentPackages/6a3249a667c3b337aaf44570/submit"
   auth:
     type: bearer
-    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTJiYWRlM2ViZDg4YjZlYzcxNjVmOTIiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTY4MDM1NiwiZXhwIjoxNzgxNjgxMjU2fQ.emP-lIfpsAO0AVn_nHqbzXqByLxrMCs7kOOCXBLHPyg
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTMyNWJkZmM0NzkxODc2YWU0MzE3NzMiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTY5OTEyOSwiZXhwIjoxNzgxNzAwMDI5fQ.qJS5kAKCLv9EPezI7S-dJ8Ftz-gDXieOXV-QkIs4Zsg
 
 settings:
   encodeUrl: true

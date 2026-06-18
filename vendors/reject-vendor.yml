@@ -1,11 +1,17 @@
 info:
-  name: get-all
+  name: reject-vendor
   type: http
-  seq: 1
+  seq: 6
 
 http:
-  method: GET
-  url: "{{base_url}}/vendors/all"
+  method: PUT
+  url: "{{base_url}}/vendors/6a325f66ab34b571c3a7fe3e/reject"
+  body:
+    type: json
+    data: |-
+      {
+        "reason":"Documents not completed"
+      }
   auth:
     type: bearer
     token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTMyNWJkZmM0NzkxODc2YWU0MzE3NzMiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTcwMzI0MiwiZXhwIjoxNzgxNzA0MTQyfQ.AECZUxhxjY4K40-uD7P7yQcoXE_j6Y11HNPjj6b82NA
