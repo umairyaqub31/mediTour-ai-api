@@ -15,7 +15,7 @@ http:
           - /Users/macbookpro/Downloads/2021_Facebook_icon 1.png
   auth:
     type: bearer
-    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTJiYWRlM2ViZDg4YjZlYzcxNjVmOTIiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTU5OTg0NCwiZXhwIjoxNzgxNjAwNzQ0fQ.6HaC0bRzEyBvpF-Gk4DTQ3o49HTvUu0HRo7yNC6Ip9o
+    token: "{{token}}"
 
 settings:
   encodeUrl: true

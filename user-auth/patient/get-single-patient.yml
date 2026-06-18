@@ -8,7 +8,7 @@ http:
   url: "{{base_url}}/superadmin/patients/6a2fa62c625fb69fdcb378da"
   auth:
     type: bearer
-    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTMyNWJkZmM0NzkxODc2YWU0MzE3NzMiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTc2NDcwNCwiZXhwIjoxNzgxNzY1NjA0fQ.82cFndqb-5w5_PDdOi_h3zvEthqiv9Qv7f7gmXp_FH0
+    token: "{{token}}"
 
 settings:
   encodeUrl: true

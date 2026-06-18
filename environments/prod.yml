@@ -2,3 +2,5 @@ name: prod
 variables:
   - name: base_url
     value: http://136.115.252.200/api
+  - name: token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTMyNWJkZmM0NzkxODc2YWU0MzE3NzMiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTc2OTIzMywiZXhwIjoxNzgxNzcwMTMzfQ.tJKWN2zv-VsKAGbjJ6T9KJvfhr69mIg6G8HmGoPngYw

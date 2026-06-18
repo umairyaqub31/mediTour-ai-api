@@ -8,7 +8,7 @@ http:
   url: "{{base_url}}/vendors/active"
   auth:
     type: bearer
-    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTMyNWJkZmM0NzkxODc2YWU0MzE3NzMiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTc2NzE5OCwiZXhwIjoxNzgxNzY4MDk4fQ.S6eIt4Mum4F3Z8UBW5wGVRzdQyTRSdm1BCcFebv81fU
+    token: "{{token}}"
 
 settings:
   encodeUrl: true

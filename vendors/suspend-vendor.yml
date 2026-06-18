@@ -8,7 +8,7 @@ http:
   url: "{{base_url}}/vendors/6a325d8eb8ef9146026a63bd/suspend"
   auth:
     type: bearer
-    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTMyNWJkZmM0NzkxODc2YWU0MzE3NzMiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTcwMDgwMiwiZXhwIjoxNzgxNzAxNzAyfQ.QV0Dk1CiM2Kq7BWxWvQircw9Okyf-KcHI9CsxHQ7R1o
+    token: "{{token}}"
 
 settings:
   encodeUrl: true

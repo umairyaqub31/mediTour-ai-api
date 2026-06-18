@@ -8,7 +8,7 @@ http:
   url: "{{base_url}}/superadmin/admins"
   auth:
     type: bearer
-    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTJiYWRlM2ViZDg4YjZlYzcxNjVmOTIiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTI3MTQ2NywiZXhwIjoxNzgxMjcyMzY3fQ.WHHMF04KCxEPxWS8LAu4XgaZLqFwIO0HegN-5MuOhAc
+    token: "{{token}}"
 
 settings:
   encodeUrl: true

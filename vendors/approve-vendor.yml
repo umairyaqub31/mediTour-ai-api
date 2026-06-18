@@ -8,7 +8,7 @@ http:
   url: "{{base_url}}/vendors/6a325d8eb8ef9146026a63bd/approve"
   auth:
     type: bearer
-    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTMyNWJkZmM0NzkxODc2YWU0MzE3NzMiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTY4NTc4OSwiZXhwIjoxNzgxNjg2Njg5fQ.bLy6T1TQSA0elKaWL-7CXx86RMrD_rnFaYG-cEAZZt0
+    token: "{{token}}"
 
 settings:
   encodeUrl: true

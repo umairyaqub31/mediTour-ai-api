@@ -8,7 +8,7 @@ http:
   url: "{{base_url}}/treatmentCategories/6a2fb0edf967a701bc333b65"
   auth:
     type: bearer
-    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTJiYWRlM2ViZDg4YjZlYzcxNjVmOTIiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTUxMDM1MiwiZXhwIjoxNzgxNTExMjUyfQ.296cKtK7i3NdzNfmzEtZ_pAjFYuiDLEzKjIULGlao5I
+    token: "{{token}}"
 
 settings:
   encodeUrl: true
