@@ -1,0 +1,27 @@
+info:
+  name: update-lead-status
+  type: http
+  seq: 4
+
+http:
+  method: PUT
+  url: "{{base_url}}/leads/6a352f8cc35344812c8a5a0a/status"
+  body:
+    type: json
+    data: |-
+      {
+        "status":"new"
+      }
+
+
+
+      // new, contacted, converted, closed
+  auth:
+    type: bearer
+    token: "{{token}}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

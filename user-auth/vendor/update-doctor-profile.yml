@@ -1,0 +1,94 @@
+info:
+  name: update-doctor-profile
+  type: http
+  seq: 2
+
+http:
+  method: PUT
+  url: "{{base_url}}/vendors/profile/doctor/6a325d8eb8ef9146026a63bd"
+  body:
+    type: json
+    data: |-
+      {
+        "displayTitle": "Dental Surgeon - Lahore, Pakistan",
+        "specializations": ["Dental Surgery", "Implant Dentistry", "Cosmetic Dentistry"],
+        "experience": 12,
+        "bio": "Board-certified dental surgeon specializing in dental implants, veneers, and restorative dentistry.",
+        "aboutContent": "Dr. Ahmed has over a decade of experience providing advanced dental care, specializing in smile restoration and full-mouth rehabilitation. By combining modern dental technology with personalized treatment plans, he helps patients achieve healthy, functional, and aesthetically pleasing smiles.",
+        "consultationFee": 2000,
+        "onlineConsultationFee": 1500,
+        "availableCities": ["Lahore", "Islamabad"],
+        "languages": ["Urdu", "English", "Punjabi"],
+        "gallery": [
+          "https://cloudinary.com/dental-clinic-1.jpg",
+          "https://cloudinary.com/dental-clinic-2.jpg"
+        ],
+        "offersOnlineConsultation": true,
+        "offersInPerson": true,
+        "offersHomeVisit": false,
+        "offersOPD": true,
+        "procedureIds": [
+          "6a3137ac41d1e79e83d42184",
+          "6a31387141d1e79e83d42186"
+        ],
+        "boardCertifications": [
+          {
+            "name": "FCPS Oral & Maxillofacial Surgery",
+            "issuingBody": "College of Physicians and Surgeons Pakistan"
+          }
+        ],
+        "conditionsTreated": [
+          {
+            "title": "Discolored or Damaged Teeth",
+            "description": "Treatment of stained, chipped, worn, or misshapen teeth using advanced cosmetic dental procedures."
+          },
+          {
+            "title": "Missing Teeth",
+            "description": "Comprehensive tooth replacement solutions, including full-arch restorations with dental implants."
+          }
+        ],
+        "proceduresPerformed": [
+          {
+            "title": "Dental Veneers",
+            "description": "Custom-made porcelain or composite veneers designed to improve the appearance, shape, and color of teeth for a natural-looking smile."
+          },
+          {
+            "title": "All-on-6 Dental Implants",
+            "description": "A full-arch tooth replacement procedure using six strategically placed dental implants to support a fixed set of prosthetic teeth."
+          }
+        ],
+        "education": [
+          {
+            "title": "BDS",
+            "description": "University of Health Sciences, Lahore"
+          },
+          {
+            "title": "FCPS Oral & Maxillofacial Surgery",
+            "description": "College of Physicians and Surgeons Pakistan"
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Do you offer online consultations?",
+            "answer": "Yes, online video consultations are available for treatment planning, follow-ups, and initial assessments."
+          },
+          {
+            "question": "What are Dental Veneers used for?",
+            "answer": "Dental veneers are used to improve the appearance of teeth affected by discoloration, chips, gaps, or minor alignment issues."
+          },
+          {
+            "question": "Who is a candidate for All-on-6 Dental Implants?",
+            "answer": "Patients with multiple missing teeth or those requiring full-arch restoration may be suitable candidates, subject to a clinical evaluation."
+          }
+        ],
+        "isAcceptingNewPatients": true
+      }
+  auth:
+    type: bearer
+    token: "{{token}}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

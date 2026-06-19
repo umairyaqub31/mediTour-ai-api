@@ -3,4 +3,4 @@ variables:
   - name: base_url
     value: http://localhost:5001
   - name: token
-    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTMyNWJkZmM0NzkxODc2YWU0MzE3NzMiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTc3MzQzMSwiZXhwIjoxNzgxNzc0MzMxfQ.M77tXIgR0afs3Q73aQOUz0fpaB2zcZ1UQzyNDO_3AJM
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTMyNWJkZmM0NzkxODc2YWU0MzE3NzMiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTg3MDU5MywiZXhwIjoxNzgxODcxNDkzfQ._GXWW2hCqzIWQp6D_x1rVm2icCtL1eQYa8kWf5Q7Qpg

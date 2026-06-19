@@ -3,4 +3,4 @@ variables:
   - name: base_url
     value: http://136.115.252.200/api
   - name: token
-    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTMyNWJkZmM0NzkxODc2YWU0MzE3NzMiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTc3MjQ5NCwiZXhwIjoxNzgxNzczMzk0fQ.TYulhtZ_LjWjvBSPU91nQNewFjbRcyKZjphrJ3xgzdE
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTMyNWJkZmM0NzkxODc2YWU0MzE3NzMiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTg1Mjc4MywiZXhwIjoxNzgxODUzNjgzfQ.JoZRR7mqWiBv92LarUwTiXIYgETxN4H5QkG7jIPTBkU

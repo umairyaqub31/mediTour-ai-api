@@ -1,0 +1,17 @@
+info:
+  name: delete-lead
+  type: http
+  seq: 5
+
+http:
+  method: DELETE
+  url: "{{base_url}}/leads/6a352f8cc35344812c8a5a0a"
+  auth:
+    type: bearer
+    token: "{{token}}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

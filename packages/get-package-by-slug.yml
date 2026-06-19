@@ -1,0 +1,15 @@
+info:
+  name: get-package-by-slug
+  type: http
+  seq: 6
+
+http:
+  method: GET
+  url: "{{base_url}}/treatmentPackages/stem-cell-therapy-longevity-cali-colombia-stem-cells-kyron"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

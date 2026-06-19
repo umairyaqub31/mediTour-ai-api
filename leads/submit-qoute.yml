@@ -1,0 +1,25 @@
+info:
+  name: submit-qoute
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{base_url}}/leads"
+  body:
+    type: json
+    data: |-
+      {
+        "name": "Sarah Johnson",
+        "email": "sarah@example.com",
+        "phone": "+14155552671",
+        "categoryId": "6a3122c941d1e79e83d42177",
+        "procedureId": "6a313d1d41d1e79e83d4218f",
+        "country": "Turkey"
+      }
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
