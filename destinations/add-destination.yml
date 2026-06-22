@@ -1,0 +1,137 @@
+info:
+  name: add-destination
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{base_url}}/destinations"
+  body:
+    type: json
+    data: |-
+      {
+        "name": "Colombia",
+        "slug": "colombia",
+        "image": "https://example.com/images/colombia.jpg",
+        "description": "Colombia is one of Latin America's fastest-growing medical tourism destinations, offering world-class healthcare at a fraction of Western prices.",
+        "content": "<h2>Why Choose Colombia?</h2><p>Colombia has emerged as a leading destination for medical tourism, with internationally accredited hospitals, highly trained specialists, and significant cost savings compared to the USA and Europe.</p><h2>How It Works</h2><p>Our team handles everything from initial consultation to post-procedure recovery, ensuring a seamless medical journey.</p><h2>Safety Info</h2><p>Colombia's major cities like Bogotá and Medellín have modern medical facilities with strict safety protocols.</p>",
+        "topDestinations": [
+          {
+            "name": "Medellín",
+            "description": "Known as the city of eternal spring, Medellín is home to some of Colombia's finest plastic surgery and dental clinics, with internationally trained specialists."
+          },
+          {
+            "name": "Bogotá",
+            "description": "Colombia's capital offers the widest range of medical specialties, with several JCI-accredited hospitals and cutting-edge facilities."
+          },
+          {
+            "name": "Cartagena",
+            "description": "A popular choice for patients combining medical procedures with recovery in a beautiful coastal setting, especially for cosmetic surgery."
+          }
+        ],
+        "keyStats": [
+          {
+            "label": "Market Value",
+            "value": "$2.1B"
+          },
+          {
+            "label": "Patient Growth",
+            "value": "32%"
+          },
+          {
+            "label": "WHO Ranking",
+            "value": "#22"
+          },
+          {
+            "label": "Accredited Hospitals",
+            "value": "14"
+          }
+        ],
+        "costComparison": [
+          {
+            "procedureName": "Hair Transplant",
+            "localPrice": 1500,
+            "usaPrice": 8000,
+            "currency": "USD",
+            "savingsPercent": 81
+          },
+          {
+            "procedureName": "Rhinoplasty",
+            "localPrice": 2000,
+            "usaPrice": 12000,
+            "currency": "USD",
+            "savingsPercent": 83
+          },
+          {
+            "procedureName": "Dental Implants",
+            "localPrice": 800,
+            "usaPrice": 4500,
+            "currency": "USD",
+            "savingsPercent": 82
+          },
+          {
+            "procedureName": "Knee Replacement",
+            "localPrice": 7000,
+            "usaPrice": 35000,
+            "currency": "USD",
+            "savingsPercent": 80
+          }
+        ],
+        "accreditations": [
+          {
+            "name": "JCI Accredited",
+            "description": "Several Colombian hospitals hold Joint Commission International accreditation, the gold standard in global healthcare quality."
+          },
+          {
+            "name": "ISO 9001",
+            "description": "Quality management certification held by leading medical facilities across Bogotá and Medellín."
+          }
+        ],
+        "costOfLiving": [
+          {
+            "category": "Hotel (per night)",
+            "cost": 50,
+            "currency": "USD"
+          },
+          {
+            "category": "Local Meal",
+            "cost": 5,
+            "currency": "USD"
+          },
+          {
+            "category": "Taxi (per km)",
+            "cost": 0.5,
+            "currency": "USD"
+          },
+          {
+            "category": "Private Hospital Room (per night)",
+            "cost": 120,
+            "currency": "USD"
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Is Colombia safe for medical tourists?",
+            "answer": "Major cities like Bogotá and Medellín have significantly improved in safety and have dedicated medical tourism infrastructure. Most patients report a very positive experience."
+          },
+          {
+            "question": "Do Colombian doctors speak English?",
+            "answer": "Most specialists in accredited hospitals speak English or have dedicated translators available for international patients."
+          },
+          {
+            "question": "How much can I save compared to the USA?",
+            "answer": "On average, patients save between 60-85% on procedures in Colombia compared to equivalent treatment in the United States."
+          }
+        ],
+        "isFeatured": true,
+        "isActive": true
+      }
+  auth:
+    type: bearer
+    token: "{{token}}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

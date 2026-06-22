@@ -1,0 +1,17 @@
+info:
+  name: delete-destination
+  type: http
+  seq: 5
+
+http:
+  method: DELETE
+  url: "{{base_url}}/destinations/6a38fb0aed69a5c4393bf14c"
+  auth:
+    type: bearer
+    token: "{{token}}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

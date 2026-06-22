@@ -10,8 +10,8 @@ http:
     type: json
     data: |-
       {
-        "name": "Sarah Johnson",
-        "email": "sarah@example.com",
+        "name": "Samar Johnson",
+        "email": "samar@example.com",
         "phone": "+14155552671",
         "categoryId": "6a3122c941d1e79e83d42177",
         "procedureId": "6a313d1d41d1e79e83d4218f",
