@@ -1,6 +1,6 @@
 name: prod
 variables:
   - name: base_url
-    value: http://136.115.252.200/api
+    value: http://34.9.155.110/api
   - name: token
-    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTMyNWJkZmM0NzkxODc2YWU0MzE3NzMiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MTg3NTkxMiwiZXhwIjoxNzgxODc2ODEyfQ.4jhs-NELJXcSb3FrcwCuaXSJ98jkUwz6lmlP9RJNQ0I
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTMyNWJkZmM0NzkxODc2YWU0MzE3NzMiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTc4MjEzNjQ0OCwiZXhwIjoxNzgyMTM3MzQ4fQ.p1KXrJ_ikassJymotqoaxAWttxMtL1lgG2OaXPZ_hXY
